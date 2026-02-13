@@ -1,60 +1,40 @@
-# Web Services with Spring Boot & JPA
+# Java JDBC - DAO Pattern Application
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/Feliperossss/webservice-springboot-jpa/blob/main/LICENSE)
 
 # Sobre o projeto
 
-Web Services with Spring Boot & JPA
-
-Projeto desenvolvido utilizando Java + Spring Boot + JPA/Hibernate, implementando uma API RESTful completa com CRUD, relacionamentos entre entidades e tratamento global de exceções.
-
-Este projeto foi desenvolvido durante o curso de Java com Spring Boot da plataforma DevSuperior, ministrado pelo professor Nelio Alves, com o objetivo de consolidar os fundamentos de desenvolvimento backend com Java e arquitetura em camadas.
-
-
-
-
-## Modelo conceitual
-![Image](https://github.com/user-attachments/assets/62cb2b0d-ec64-48d8-804e-8117ec793fb0)
-
-
-![Image](https://github.com/user-attachments/assets/f223876d-7168-484f-9414-bebad1076cca)
+Aplicação Java desenvolvida utilizando JDBC puro, implementando o padrão DAO (Data Access Object) para operações completas de CRUD em banco de dados relacional.
 
 # Tecnologias utilizadas
 ## Back end
 - Java
 - Spring Boot
-- JPA / Hibernate
-- Maven
-- H2 Database (profile de teste)
-- REST API
+- JPA
+- Padrão DAO
+- mySql
 
 # Como executar o projeto
 
 ## Back end
 Pré-requisitos: 
 Java 25
-Maven
 Uma IDE (IntelliJ, Eclipse ou VS Code)
+Maven
+mySql
 
 ```bash
-# clonar repositóriogit
-git clone https://github.com/Feliperossss/webservice-springboot-jpa.git
 
-# Acessar a pasta do projeto
+# 1) Clonar repositório
+git clone https://github.com/Feliperossss/demo-dao-jdbc.git
 
-cd webservice-springboot-jpa
+# 2) Acessar a pasta do projeto
+cd demo-dao-jdbc
 
+# 3) Compilar e baixar dependências
+mvn clean compile
 
-# Executar a aplicação
-
-mvn spring-boot:run
-
-# Ativar o profile de teste
-
-spring.profiles.active=test
-
-# Acessar a API
-
-http://localhost:8080
+# 4) Executar a aplicação
+mvn exec:java
 
 ```
 # Autor
