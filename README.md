@@ -12,7 +12,10 @@ Este projeto foi desenvolvido durante o curso de Java com Spring Boot da platafo
 
 
 ## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
+![Image](https://github.com/user-attachments/assets/62cb2b0d-ec64-48d8-804e-8117ec793fb0)
+
+
+![Image](https://github.com/user-attachments/assets/f223876d-7168-484f-9414-bebad1076cca)
 
 # Tecnologias utilizadas
 ## Back end
@@ -26,17 +29,14 @@ Este projeto foi desenvolvido durante o curso de Java com Spring Boot da platafo
 # Como executar o projeto
 
 ## Back end
-Pré-requisitos: Java 11
+Pré-requisitos: 
+Java 25
+Maven
+Uma IDE (IntelliJ, Eclipse ou VS Code)
 
 ```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
+# clonar repositóriogit clone https://github.com/Feliperossss/webservice-springboot-jpa.git
 
-# entrar na pasta do projeto back end
-cd backend
-
-# executar o projeto
-./mvnw spring-boot:run
 ```
 
 ## Front end web
@@ -46,18 +46,24 @@ Pré-requisitos: npm / yarn
 # clonar repositório
 git clone https://github.com/devsuperior/sds1-wmazoni
 
-# entrar na pasta do projeto front end web
-cd front-web
+# Acessar a pasta do projeto
+cd nome-do-repositorio
 
-# instalar dependências
-yarn install
+# Executar a aplicação
 
-# executar o projeto
-yarn start
+mvn spring-boot:run
+
+# Ativar o profile de teste
+
+spring.profiles.active=test
+
+# Acessar a API
+
+http://localhost:8080
+
 ```
-
 # Autor
 
-Wellington Mazoni de Andrade
+Felipe Albuquerque de Souza
 
-https://www.linkedin.com/in/wmazoni
+linkedin: https://www.linkedin.com/in/felipe-albuquerque-588271364
