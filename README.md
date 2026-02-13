@@ -1,3 +1,17 @@
+# Web Services with Spring Boot & JPA
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Feliperossss/webservice-springboot-jpa/blob/main/LICENSE)
+
+# Sobre o projeto
+
+Web Services with Spring Boot & JPA
+
+Projeto desenvolvido utilizando Java + Spring Boot + JPA/Hibernate, implementando uma API RESTful completa com CRUD, relacionamentos entre entidades e tratamento global de exceções.
+
+Este projeto foi desenvolvido durante o curso de Java com Spring Boot da plataforma DevSuperior, ministrado pelo professor Nelio Alves, com o objetivo de consolidar os fundamentos de desenvolvimento backend com Java e arquitetura em camadas.
+
+
+
+
 ## Modelo conceitual
 ![Image](https://github.com/user-attachments/assets/62cb2b0d-ec64-48d8-804e-8117ec793fb0)
 
@@ -6,7 +20,13 @@
 
 # Tecnologias utilizadas
 ## Back end
-@@ -26,17 +29,14 @@ Este projeto foi desenvolvido durante o curso de Java com Spring Boot da platafo
+- Java
+- Spring Boot
+- JPA / Hibernate
+- Maven
+- H2 Database (profile de teste)
+- REST API
+
 # Como executar o projeto
 
 ## Back end
@@ -16,30 +36,17 @@ Maven
 Uma IDE (IntelliJ, Eclipse ou VS Code)
 
 ```bash
-# clonar repositóriogit clone https://github.com/Feliperossss/webservice-springboot-jpa.git
-
-
-
-
-
-
-
-```
-
-## Front end web
-@@ -46,18 +46,24 @@ Pré-requisitos: npm / yarn
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
+# clonar repositóriogit
+git clone https://github.com/Feliperossss/webservice-springboot-jpa.git
 
 # Acessar a pasta do projeto
-cd nome-do-repositorio
+
+cd webservice-springboot-jpa
+
 
 # Executar a aplicação
 
-
 mvn spring-boot:run
-
-
 
 # Ativar o profile de teste
 
@@ -55,3 +62,4 @@ http://localhost:8080
 Felipe Albuquerque de Souza
 
 linkedin: https://www.linkedin.com/in/felipe-albuquerque-588271364
+
