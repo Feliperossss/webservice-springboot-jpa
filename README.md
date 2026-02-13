@@ -13,7 +13,7 @@ Aplicação Java desenvolvida utilizando JDBC puro, implementando o padrão DAO 
 - Padrão DAO
 - mySql
 
-# Como executar o projeto
+# requisitos
 
 ## Back end
 Pré-requisitos: 
@@ -22,21 +22,7 @@ Uma IDE (IntelliJ, Eclipse ou VS Code)
 Maven
 mySql
 
-```bash
 
-# 1) Clonar repositório
-git clone https://github.com/Feliperossss/demo-dao-jdbc.git
-
-# 2) Acessar a pasta do projeto
-cd demo-dao-jdbc
-
-# 3) Compilar e baixar dependências
-mvn clean compile
-
-# 4) Executar a aplicação
-mvn exec:java
-
-```
 # Autor
 
 Felipe Albuquerque de Souza
