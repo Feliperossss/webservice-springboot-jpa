@@ -1,28 +1,55 @@
-# Java JDBC - DAO Pattern Application
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Feliperossss/webservice-springboot-jpa/blob/main/LICENSE)
+## Modelo conceitual
+![Image](https://github.com/user-attachments/assets/62cb2b0d-ec64-48d8-804e-8117ec793fb0)
 
-# Sobre o projeto
 
-Aplicação Java desenvolvida utilizando JDBC puro, implementando o padrão DAO (Data Access Object) para operações completas de CRUD em banco de dados relacional.
+![Image](https://github.com/user-attachments/assets/f223876d-7168-484f-9414-bebad1076cca)
 
 # Tecnologias utilizadas
 ## Back end
-- Java
-- Spring Boot
-- JPA
-- Padrão DAO
-- mySql
-
-# requisitos
+@@ -26,17 +29,14 @@ Este projeto foi desenvolvido durante o curso de Java com Spring Boot da platafo
+# Como executar o projeto
 
 ## Back end
 Pré-requisitos: 
 Java 25
-Uma IDE (IntelliJ, Eclipse ou VS Code)
 Maven
-mySql
+Uma IDE (IntelliJ, Eclipse ou VS Code)
+
+```bash
+# clonar repositóriogit clone https://github.com/Feliperossss/webservice-springboot-jpa.git
 
 
+
+
+
+
+
+```
+
+## Front end web
+@@ -46,18 +46,24 @@ Pré-requisitos: npm / yarn
+# clonar repositório
+git clone https://github.com/devsuperior/sds1-wmazoni
+
+# Acessar a pasta do projeto
+cd nome-do-repositorio
+
+# Executar a aplicação
+
+
+mvn spring-boot:run
+
+
+
+# Ativar o profile de teste
+
+spring.profiles.active=test
+
+# Acessar a API
+
+http://localhost:8080
+
+```
 # Autor
 
 Felipe Albuquerque de Souza
